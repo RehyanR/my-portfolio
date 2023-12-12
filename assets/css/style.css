@@ -13,14 +13,12 @@
     width: 90%;
     margin: 0 auto;
   }
-
   header{
     width: 100%;
     height: 120px;
     background-color: rgba(19, 81, 239, 0.741);
     position: fixed;
   }  
-
   .logo{
     width: 30%;
     float: left;
@@ -51,6 +49,20 @@
   nav a:hover{
     background-color: antiquewhite;
     color: black;
+  }
+  .picture{
+    height: 100vh;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    float: left;
+  }
+  .picture img{
+    width: 200px;
+    height: 250px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 5px solid green;
   }
   .hero-banner{
     background-image: url(./assets/images/Rehyanbanner.jpg);
