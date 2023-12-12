@@ -9,7 +9,7 @@
     line-height: 1.5;
     text-align: center;
   }
-  .wrapper{
+  .page-wrapper{
     width: 90%;
     margin: 0 auto;
   }
@@ -20,6 +20,25 @@
     background-color: rgba(19, 81, 239, 0.741);
     position: fixed;
   }  
+
+  .logo{
+    width: 30%;
+    float: left;
+    text-align: left;
+    line-height: 20px;
+  }
+  .logo a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: cursive;
+    color: aliceblue;
+    letter-spacing: 4px;
+  }
+  nav {
+    float: right;
+    line-height: 20px;
+    
+  }
 
   h1,
   h2,
